@@ -119,3 +119,9 @@
 #
 # p [1,2,3,4,5].find_all { |number| number.even? }
 # p [1,2,3,4,5].find_all { |number| number.odd? }
+
+
+[1,2,3,4].partition { |number| number.odd? }
+['$','$$','$$$'].max_by {|string| string.length}
+['$','$$','$$$'].min_by {|string| string.length}
+[1,2,3,4].count { |number| number.odd? }
