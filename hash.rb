@@ -5,9 +5,10 @@ lines = []
 end
 
 array_new = {}
+
 arrays = [1,2,2,3,4,4,4,5,5,5,5,5]
 arrays.each do |array|
-  if array_new[array] 
+  if array_new[array]
     array_new[array] += 1
   else
     array_new[array] = 1
