@@ -3,6 +3,7 @@ class Vehicle
 
   def accelerate
     puts "Floor it!"
+
   end
 
   def sound_horn
